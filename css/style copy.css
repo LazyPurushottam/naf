@@ -1,0 +1,364 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.intro-section {
+  content: "";
+  background-image: url(../images/event.jpeg);
+  height: 75vh;
+  background-size: cover;
+}
+
+.line {
+  border-bottom: 2.5px solid white;
+  width: auto;
+}
+
+.mid-text h1 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80.49px;
+  padding-bottom: 22px;
+}
+
+.mid-text h3 {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 26.45px;
+  padding-bottom: 63px;
+}
+
+.mid-text {
+  padding-top: 9rem;
+}
+
+#donate {
+  margin-bottom: 30px;
+}
+
+.card {
+  border: #e5e5e5;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card:not(:last-child) {
+  border: #e5e5e5;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(purple, purple),
+    linear-gradient(purple, purple), linear-gradient(purple, purple),
+    linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-size: 0px 50%, 50% 0px, 3px 50%, 50% 0px,
+    calc(100% - 8px) calc(100% - 8px);
+  background-position: right, 4px 4px;
+  height: 160px;
+  width: 160px;
+}
+
+#borderOne {
+  border-radius: 10px 0 0 10px;
+}
+
+#borderTwo {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.site-wrap {
+  padding-bottom: 150px;
+}
+
+.headings {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #003893;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20.7px;
+  text-align: justify;
+}
+
+.association {
+  padding-bottom: 50px;
+}
+
+.about {
+  padding-top: 75px;
+  background-color: #e5e5e5;
+  padding-bottom: 50px;
+}
+
+.news {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.imgNews {
+  width: 390px;
+  height: 264px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#cards {
+  position: absolute;
+  top: 13rem;
+  left: 4rem;
+  border-radius: 10px;
+}
+
+.newsEvent {
+  padding-right: 5rem;
+}
+
+.user_card {
+  margin-top: 6rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.brand_logo_container {
+  height: 230px;
+  width: 170px;
+  z-index: 9;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* .subscribe
+{
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+} */
+
+.about-section {
+  content: "";
+  background-image: url(../images/about.jpeg);
+  height: 55vh;
+  background-size: cover;
+}
+
+.image-radius {
+  border-radius: 50%;
+}
+.executive-member {
+  padding-bottom: 4rem;
+}
+.about-member {
+  background-color: #e5e5e5;
+  padding: 5rem;
+}
+
+.community {
+  padding-top: 3rem;
+}
+
+.about-youth {
+  background-color: #e5e5e5;
+  padding: 5rem;
+}
+
+.card-text {
+  padding: 3rem;
+}
+
+.naf {
+  padding-top: 5rem;
+  padding-left: 4rem;
+}
+
+.img-radius {
+  padding-left: 3rem;
+  border-radius: 5%;
+  padding-bottom: 3rem;
+}
+
+.lableName {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.4px;
+  color: rgba(95, 95, 95, 1);
+}
+
+.lableNameRadio {
+  color: rgba(95, 95, 95, 1);
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.4px;
+}
+
+.inputBox {
+  background-color: rgba(229, 229, 229, 1);
+  border-radius: 29px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 58px;
+  width: 800px;
+}
+
+.raidoButton {
+  color: rgba(149, 149, 149, 1);
+  margin-left: 2rem;
+}
+
+.raidoButtonM {
+  color: rgba(149, 149, 149, 1);
+  margin-left: 2rem;
+}
+
+.dollarImg {
+  padding-top: 5rem;
+  width: 100%;
+  height: 493px;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.imageContainer {
+  position: absolute;
+  padding-top: 5rem;
+  left: 30%;
+  top: 0;
+}
+
+.imageContainer h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #fff;
+}
+
+.dollars {
+  border-radius: 30px;
+  height: 121px;
+  width: 121px;
+  margin-right: 5rem;
+  background-color: rgba(192, 201, 224, 1);
+}
+
+.dollar {
+  border-radius: 30px;
+  height: 121px;
+  width: 121px;
+  margin-right: 2rem;
+  background-color: rgba(192, 201, 224, 1);
+}
+
+.dollars p {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 700;
+  color: rgba(0, 56, 147, 1);
+}
+
+.dollar p {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 700;
+  color: rgba(0, 56, 147, 1);
+}
+
+.donateMethod {
+  width: 50px;
+  height: 50px;
+  padding-right: 1rem;
+}
+
+.footerUp {
+  padding-top: 59rem;
+}
+
+.mobileCard {
+  display: flex;
+  flex-direction: row;
+}
+
+.captionTxt p {
+  padding-left: 45px;
+}
+
+.contact-section {
+  content: "";
+  background-image: url(../images/contact.jpeg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#boxShadow {
+    margin-left: 2rem;
+  box-shadow: 0 -5px 5px -5px #333, 0 5px 5px -5px #333, -5px 0 5px -5px #333;
+}
+
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+  .mid-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.49px;
+  }
+
+  .mid-text h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.45px;
+  }
+
+  #donate {
+    margin-bottom: 3px;
+  }
+  .card {
+    display: none;
+  }
+
+  .imgNews {
+    width: 340px;
+    height: 264px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 7rem;
+    padding-bottom: 4rem;
+  }
+  .mobileCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #cards {
+    display: block;
+    position: absolute;
+    top: 8rem;
+    left: 6rem;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}
