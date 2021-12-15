@@ -5,6 +5,7 @@ body {
   overflow-x: hidden;
 }
 
+
 .intro-section {
   content: "";
   background-image: url(../images/event.jpeg);
@@ -56,6 +57,50 @@ body {
   padding-bottom: 22px;
 }
 
+.icon-hover{
+  display: none;
+}
+
+.gap:hover .icon-hover{
+  padding-top: 43px;
+  padding-left: 6.5rem;
+  display: block;
+}
+
+.gap:hover .icon-home{
+  display: none;
+}
+
+.gap:hover p {
+  color: #fff;
+}
+
+.gap:hover #firstText {
+  color: #fff;
+}
+.gap:hover{
+  transform: scale(1.2);
+  background:#003893;
+}
+
+.gap:hover p {
+  color: #fff;
+}
+
+.no-design a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.header-card{
+  margin-left: 6.5rem;
+  border-radius: 15px;
+  height: 201px;
+  width: 1100px;
+  background: #FFF;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
 .mid-text h3 {
   font-size: 23px;
   font-weight: 400;
@@ -70,54 +115,16 @@ body {
 #donate {
   margin-bottom: 30px;
 }
-
-.card {
+.gap:not(:last-child) {
   border: #e5e5e5;
-}
-.card:not(:last-child) {
-  border: #e5e5e5;
-  background-image: linear-gradient(purple, purple),
-    linear-gradient(purple, purple), linear-gradient(purple, purple),
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
+    linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
     linear-gradient(transparent, transparent);
   background-repeat: no-repeat;
   background-size: 0px 50%, 50% 0px, 3px 50%, 50% 0px,
     calc(100% - 8px) calc(100% - 8px);
   background-position: right, 4px 4px;
-  height: 160px;
-  width: 160px;
-}
-
-#boxShadow:hover
-{
-    background-color: rgba(0, 56, 147, 1);
-    color: #fff;
-    transform: scale(1.2);
-    z-index: 1;
-}
-
-#boxShadowOne:hover
-{
-    background-color: rgba(0, 56, 147, 1);
-    color: #fff;
-    transform: scale(1.2);
-    z-index: 1;
-}
-
-#boxShadowLast:hover
-{
-    background-color: rgba(0, 56, 147, 1);
-    color: #fff;
-    transform: scale(1.2);
-    z-index: 1;
-}
-
-#borderOne {
-  border-radius: 10px 0 0 10px;
-}
-
-#borderTwo {
-  border-radius: 0px 10px 10px 0px;
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  height: 201px;
 }
 
 .site-wrap {
@@ -910,12 +917,208 @@ line-height: 46px;
     padding: 3rem;
     background-color: #003893
 }
+
+.flexDesign
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-control-prev-icon{
+  margin-left: -23rem;
+}
+
+.carousel-control-next-icon{
+  margin-right: -23rem;
+}
+
+.mobile-view-care{
+  display: none;
+}
+
+.mobile-section{
+  display: none;
+}
+
+
 @media only screen and (max-width: 480px) {
   /* For mobile phones: */
   .mid-text h1 {
     font-size: 24px;
     font-weight: 700;
     line-height: 30.49px;
+  }
+  .footerBox {
+    background-color: rgba(229, 229, 229, 1);
+    border-radius: 29px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    height: 38px;
+    width: 278px;
+  }
+
+  .footerButton {
+    background-color: #003893;
+    color: #fff;
+    border-radius: 37px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 6.5rem;
+    height: 34px;
+    width: 128px;
+}
+
+  .mobile-section{
+    display: block;
+  }
+
+  .rect{
+    width: 345px;
+    height: 191px;
+    background: #5F5F5F;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .rect p {
+    padding: 1px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 13px 23px 0px 23px;
+  }
+
+
+  .search input {
+    height: 56px;
+    width: 376px;
+    border-radius: 53.5px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+
+.side-card {
+  width: 377px;
+  height: 444px;
+  background-color: #F4F5F9;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+.search{
+  left: 9px;
+}
+
+.search .searchSVG {
+  position: absolute;
+  top: 17px;
+  left: 39px;
+}
+  .site-wrap{
+    padding-bottom: 50px;
+  }
+
+  .footer-section{
+    display: none;
+  }
+  .header-card{
+    display: none;
+  }
+
+  .testi{
+    padding-top: 0px !important;
+  }
+
+  .we-care-contain{
+    display: none;
+  }
+  .donation{
+    padding-left: 0px;
+  }
+
+  .donationImg
+  {
+    border-radius: 0px;
+        width: 100%;
+        height: 209px;
+        background-size: cover;
+
+  }
+
+  .mobile-view-care{
+    display: block;
+  }
+
+  .headings{
+    font-size: 18px;
+  }
+
+  .associateFirst{
+    width: 60px;
+    height: 274px;
+  }
+
+  .associate{
+    width: 60px;
+    height: 418px;
+  }
+
+  .assocaite-design{
+    padding-left: 3rem;
+  }
+  .big-circle {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -53px;
+    bottom: 88px;
+    border-radius: 50%;
+    background-color: #003893;
+  }
+
+  .last-circle {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 40px;
+    right: 27px;
+    border-radius: 50%;
+    background-color: #003893;
+}
+
+.top-circle{
+  top: 32px;
+  left: 16px;
+}
+
+.testiImg{
+  width: 178px !important;
+  height: 178px !important;
+  margin-left: 6rem;
+}
+
+.topSide-circle {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: -44px;
+  top: 87px;
+  border-radius: 50%;
+  background-color: #003893;
+}
+
+  .associateMid{
+    width: 60px;
+    height: 353px;
+  }
+
+  .associateLast{
+    width: 60px;
+    height: 211px;
+  }
+  .flexDesign{
+    display: none;
   }
 
   .mid-text h3 {
@@ -926,9 +1129,6 @@ line-height: 46px;
 
   #donate {
     margin-bottom: 3px;
-  }
-  .card {
-    display: none;
   }
 
   .imgNews {
@@ -957,6 +1157,9 @@ line-height: 46px;
 }
 
 @media only screen and (max-width: 1024px) {
+  .mid-text{
+    padding-top: 0rem;
+  }
 }
 
 
@@ -974,20 +1177,38 @@ testimonials
 }
 
 .icon-home{
+  padding-top: 43px;
   padding-left: 6.5rem;
 }
 
 #firstText{
   color: #003893;
   font-size: 23px;
+  padding-left: 5rem;
+  padding-top: 8px;
+}
+.txt{
+  color: #5F5F5F;
+  font-size: 13px;
+  padding-left: 2rem;
+  margin-top: -16px;
+
 }
 
 .firstText{
   color: #5F5F5F;
   font-size: 13px;
-  text-align: center;
+  padding-left: 2rem;
 }
-
+.second-txt{
+  color: #5F5F5F;
+  font-size: 13px;
+  padding-left: 3.5rem;
+  margin-top: -16px;
+}
+.gap{
+  padding-right: 3rem;
+}
 
 hr {
   visibility: visible;
