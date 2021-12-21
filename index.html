@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="site-wrap">
+    <div class="home-wrap">
       <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
           <div class="site-mobile-menu-close mt-3">
@@ -32,7 +32,7 @@
               <a href="tel:1-123-456-78900">1-123-456-78900</a>
               <img src="images/place_white_24dp.svg" alt="" />
               <a href="#">Miami, Florida, United States</a>
-              <a href="#" class="btn btn-success"> Login</a>
+              <button> Login</button>
             </div>
           </div>
           <div class="line"></div>
@@ -89,7 +89,7 @@
               "The smallest act of kindnessis worth more than the grandest
               intention"
             </h3>
-            <a href="#" class="btn btn-primary" id="donate">Donate</a>
+            <button id="donate">Donate</button>
           </div>
           <div class="header-card">
             <div class="flexDesign">
@@ -107,15 +107,15 @@
               <div class="gap">
                 <img class="icon-home" src="images/mic.svg" alt="">
                 <img class="icon-hover" src="images/mic-white.svg" alt="">
-                <h5 id="firstText">Announcements</h5>
+                <h5 id="firstTxt">Announcements</h5>
                 <p class="firstText">
                   Update to our regular events
                 </p>
               </div>
               <div class="gap">
-                <img class="icon-home" src="images/send.png" alt="">
-                <img class="icon-hover" src="images/send.svg" alt="">
-                <h5 id="firstText">Indreni</h5>
+                <img class="icon-indreni" src="images/send.png" alt="">
+                <img class="indreni-hover" src="images/send.svg" alt="">
+                <h5 id="firstTet">Indreni</h5>
                 <p class="firstText">
                   Our regular newsletters 
                 </p>
@@ -240,7 +240,7 @@
                   </p>
                 </div>
                 <div>
-                  <button class="btn btn-success">Donate</button>
+                  <button class="esta">Donate</button>
                 </div>
               </div>
               <div class="col-sm-6">
@@ -302,51 +302,160 @@
     <section class="news">
       <div class="container">
         <h2 class="headings text-center">News and Events</h2>
-        <div class="mobileCard">
-          <div class="position-relative newsEvent">
-            <img class="imgNews" src="images/event.png" />
-            <div class="card" id="cards" style="width: 18rem">
-              <div class="card-body">
-                <h5 class="card-title" id="cardTitle">
-                  Program for Litter-Free Florida !
-                </h5>
-                <p class="cardText">
-                  ADOPT-A-HIGHWAY Program in Florida by Nepalese Association of
-                  Florida ( NAF) for Litter-Free Florida !
-                </p>
-                <a href="#" class="btn btn-primary">Read more..</a>
+        
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="mobileCard">
+                  <div class="position-relative newsEvent">
+                    <img class="imgNews" src="images/event.png" />
+                    <div class="card heightCard" id="cards" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">
+                          Program for Litter-Free Florida !
+                        </h5>
+                        <p class="cardText">
+                          ADOPT-A-HIGHWAY Program in Florida by Nepalese Association of
+                          Florida ( NAF) for Litter-Free Florida !
+                        </p>
+                        <button class="readMore">Read more..</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-relative newsEvent">
+                    <img class="imgNews" src="images/event.png" />
+                    <div class="card heightCard" id="cards" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">
+                          Meet and Greet with Dr. Pun!
+                        </h5>
+                        <p class="cardText">
+                          “Meet and Greet with Dr. Mahabir Pun” program after the Nepali
+                          new year program in April.
+                        </p>
+                        <button class="readMore">Read more..</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-relative">
+                    <img class="imgNews" src="images/event.png" />
+                    <div class="card heightCard" id="cards" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mental Health Matters</h5>
+                        <p class="cardText">
+                          Interaction program on mental health titled “An Introspective
+                          Look At Child and Adolescent Mental Health”
+                        </p>
+                        <button class="readMore">Read more..</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="mobileCard">
+                  <div class="position-relative newsEvent">
+                    <img class="imgNews" src="images/event.png" />
+                    <div class="card heightCard" id="cards" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">
+                          Program for Litter-Free Florida !
+                        </h5>
+                        <p class="cardText">
+                          ADOPT-A-HIGHWAY Program in Florida by Nepalese Association of
+                          Florida ( NAF) for Litter-Free Florida !
+                        </p>
+                        <button class="readMore">Read more..</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-relative newsEvent">
+                    <img class="imgNews" src="images/event.png" />
+                    <div class="card heightCard" id="cards" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">
+                          Meet and Greet with Dr. Pun!
+                        </h5>
+                        <p class="cardText">
+                          “Meet and Greet with Dr. Mahabir Pun” program after the Nepali
+                          new year program in April.
+                        </p>
+                        <button class="readMore">Read more..</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-relative">
+                    <img class="imgNews" src="images/event.png" />
+                    <div class="card heightCard" id="cards" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mental Health Matters</h5>
+                        <p class="cardText">
+                          Interaction program on mental health titled “An Introspective
+                          Look At Child and Adolescent Mental Health”
+                        </p>
+                        <button class="readMore">Read more..</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="mobileCard">
+                  <div class="position-relative newsEvent">
+                    <img class="imgNews" src="images/event.png" />
+                    <div class="card heightCard" id="cards" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">
+                          Program for Litter-Free Florida !
+                        </h5>
+                        <p class="cardText">
+                          ADOPT-A-HIGHWAY Program in Florida by Nepalese Association of
+                          Florida ( NAF) for Litter-Free Florida !
+                        </p>
+                        <button class="readMore">Read more..</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-relative newsEvent">
+                    <img class="imgNews" src="images/event.png" />
+                    <div class="card heightCard" id="cards" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">
+                          Meet and Greet with Dr. Pun!
+                        </h5>
+                        <p class="cardText">
+                          “Meet and Greet with Dr. Mahabir Pun” program after the Nepali
+                          new year program in April.
+                        </p>
+                        <button class="readMore">Read more..</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-relative">
+                    <img class="imgNews" src="images/event.png" />
+                    <div class="card heightCard" id="cards" style="width: 18rem">
+                      <div class="card-body">
+                        <h5 class="card-title" id="cardTitle">Mental Health Matters</h5>
+                        <p class="cardText">
+                          Interaction program on mental health titled “An Introspective
+                          Look At Child and Adolescent Mental Health”
+                        </p>
+                        <button class="readMore">Read more..</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div class="position-relative newsEvent">
-            <img class="imgNews" src="images/event.png" />
-            <div class="card" id="cards" style="width: 18rem">
-              <div class="card-body">
-                <h5 class="card-title" id="cardTitle">
-                  Meet and Greet with Dr. Pun!
-                </h5>
-                <p class="cardText">
-                  “Meet and Greet with Dr. Mahabir Pun” program after the Nepali
-                  new year program in April.
-                </p>
-                <a href="#" class="btn btn-primary">Read more..</a>
-              </div>
-            </div>
-          </div>
-          <div class="position-relative">
-            <img class="imgNews" src="images/event.png" />
-            <div class="card" id="cards" style="width: 18rem">
-              <div class="card-body">
-                <h5 class="card-title" id="cardTitle">Mental Health Matters</h5>
-                <p class="cardText">
-                  Interaction program on mental health titled “An Introspective
-                  Look At Child and Adolescent Mental Health”
-                </p>
-                <a href="#" class="btn btn-primary">Read more..</a>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -354,15 +463,19 @@
       <h2 class="headings pb-5 text-center">
           Testimonials
         </h2>
-      <div class="container">
+      <div class="container position-relative">
+        <div class="testi-big"></div>
+        <div class="testi-big-circle"></div>
+        <div class="testi-bottom"></div>
         
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="col-sm-12">
                 <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-6 d-flex flex-column align-items-center" id="testi">
                     <img class="testiImg" src="images/association.jpeg" alt="" />
+                    <h1>Tom Hanks</h1>
                   </div>
                   <div class="col-sm-6">
                     <p>
@@ -399,8 +512,9 @@
             <div class="carousel-item">
               <div class="col-sm-12">
                 <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-6  d-flex flex-column align-items-center"  id="testi">
                     <img class="testiImg" src="images/testi.jpeg" alt="" />
+                    <h1>Priti Dhungel Bhandary</h1>
                   </div>
                   <div class="col-sm-6">
                     <p>
@@ -437,8 +551,9 @@
             <div class="carousel-item">
               <div class="col-sm-12">
                 <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-6  d-flex flex-column align-items-center position-relative" id="testi">
                     <img class="testiImg" src="images/day-news1.jpeg" alt="" />
+                    <h1>Hello</h1>
                   </div>
                   <div class="col-sm-6">
                     <p>

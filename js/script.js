@@ -2,7 +2,7 @@ $(document).ready(function() {
    
     $("#executive-member").owlCarousel({
 
-      autoplay: true,
+      autoplay: false,
       lazyLoad: true,
       loop: true,
       margin: 20,
@@ -15,6 +15,7 @@ $(document).ready(function() {
       autoplayTimeout: 7000,
       smartSpeed: 800,
       nav: true,
+      navText: ["<img src='../images/arrow-left-circle.svg'>","<img src='../images/arrow-right-circle.svg'>"],
       responsive: {
           0: {
           items: 1
@@ -25,7 +26,7 @@ $(document).ready(function() {
           },
 
           1024: {
-          items: 2
+          items: 1
           },
 
           1366: {
@@ -35,7 +36,7 @@ $(document).ready(function() {
       });
       $("#about-member").owlCarousel({
 
-        autoplay: true,
+        autoplay: false,
         lazyLoad: true,
         loop: true,
         margin: 20,
@@ -48,6 +49,7 @@ $(document).ready(function() {
         autoplayTimeout: 7000,
         smartSpeed: 800,
         nav: true,
+        navText: ["<img src='../images/arrow-left-circle.svg'>","<img src='../images/arrow-right-circle.svg'>"],
         responsive: {
             0: {
             items: 1
@@ -58,7 +60,7 @@ $(document).ready(function() {
             },
   
             1024: {
-            items: 2
+            items: 1
             },
   
             1366: {
@@ -68,7 +70,7 @@ $(document).ready(function() {
         });
         $("#about-youth").owlCarousel({
   
-          autoplay: true,
+          autoplay: false,
           lazyLoad: true,
           loop: true,
           margin: 20,
@@ -81,6 +83,7 @@ $(document).ready(function() {
           autoplayTimeout: 7000,
           smartSpeed: 800,
           nav: true,
+          navText: ["<img src='../images/arrow-left-circle.svg'>","<img src='../images/arrow-right-circle.svg'>"],
           responsive: {
               0: {
               items: 1
@@ -91,7 +94,7 @@ $(document).ready(function() {
               },
     
               1024: {
-              items: 2
+              items: 1
               },
     
               1366: {
@@ -101,7 +104,7 @@ $(document).ready(function() {
           });
           $("#advisory").owlCarousel({
     
-            autoplay: true,
+            autoplay: false,
             lazyLoad: true,
             loop: true,
             margin: 20,
@@ -114,6 +117,7 @@ $(document).ready(function() {
             autoplayTimeout: 7000,
             smartSpeed: 800,
             nav: true,
+            navText: ["<img src='../images/arrow-left-circle.svg'>","<img src='../images/arrow-right-circle.svg'>"],
             responsive: {
                 0: {
                 items: 1
@@ -124,7 +128,7 @@ $(document).ready(function() {
                 },
       
                 1024: {
-                items: 2
+                items: 1
                 },
       
                 1366: {
@@ -135,7 +139,7 @@ $(document).ready(function() {
 
           $("#amendment").owlCarousel({
     
-            autoplay: true,
+            autoplay: false,
             lazyLoad: true,
             loop: true,
             margin: 20,
@@ -148,6 +152,7 @@ $(document).ready(function() {
             autoplayTimeout: 7000,
             smartSpeed: 800,
             nav: true,
+            navText: ["<img src='../images/arrow-left-circle.svg'>","<img src='../images/arrow-right-circle.svg'>"],
             responsive: {
                 0: {
                 items: 1
@@ -158,7 +163,43 @@ $(document).ready(function() {
                 },
       
                 1024: {
-                items: 2
+                items: 1
+                },
+      
+                1366: {
+                items: 3
+                }
+            }
+            });
+
+
+          $("#youth").owlCarousel({
+    
+            autoplay: false,
+            lazyLoad: true,
+            loop: true,
+            margin: 20,
+            /*
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            */
+            responsiveClass: true,
+            autoHeight: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 800,
+            nav: true,
+            navText: ["<img src='../images/arrow-left-circle.svg'>","<img src='../images/arrow-right-circle.svg'>"],
+            responsive: {
+                0: {
+                items: 1
+                },
+      
+                600: {
+                items: 1
+                },
+      
+                1024: {
+                items: 1
                 },
       
                 1366: {
