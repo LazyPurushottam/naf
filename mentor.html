@@ -22,7 +22,7 @@
             <div class="site-mobile-menu-body"></div>
         </div>
 
-        <div class="about-section">
+        <div class="mentor-section">
             <div class="container">
                 <div class="row align-items-center">
                   <div class="col-lg-6 d-lg-block logo">
@@ -87,67 +87,223 @@
                 <div class="text-center mid-text">
                     <h1 class="text-white">Mentorship</h1>
                 </div>
-                <div class="d-flex flex-row px-5 paddingDown">
-                    <div class="card formCard" id="borderTwo">
-                        <div class="card-body">
-                            <h5 class="headings text-center">Signup for Mentorship</h5>
-                            <p class="card-text">
-                                Opportunity for professional networking and development. Nepalese Association of Florida
-                                (NAF) is introducing mentorship program for our community members taping our highly
-                                capable pool of community mentors.
+                <div class="mentor-card">
+                  <div class="flexDesign">
+                    <div class="gap tablinks"  onclick="openCity(event, 'mentor')">
+                      <img class="mentor-home" src="images/users.svg" alt="">
+                      <img class="mentor-hover" src="images/users-white.svg" alt="">
+                      <h5 id="mentorfirstText">Mentor</h5>
+                      <p class="mentorfirstText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                      </p>
+                      <p class="mentor-txt">
+                        elit. Morbi id justo arcu.
+                      </p>
+                    </div>
+                    <div class="gap tablinks" onclick="openCity(event, 'mentee')">
+                      <img class="mentor-home" src="images/message-blue.svg" alt="">
+                      <img class="mentor-hover" src="images/message.svg" alt="">
+                      <h5 id="mentorfirstText">Mentee</h5>
+                      <p class="mentorfirstText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                      </p>
+                      <p class="mentor-txt">
+                        elit. Morbi id justo arcu.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </div>
+    <section class="container tabcontent" style="display: block;" id="mentor">
+      <h1 class="headings text-center pt-5">Become a Mentor</h1>
+      <div class="col-sm-12">
+          <div class="row">
+              <div class="col-sm-2">
+              </div>
+              <div class="col-sm-7">
+                  <form action="">
+                      <div>
+                          <label class="lableName">Name *</label>
+                          <input type="text" class="form-control inputBox" placeholder="Full Name">
+                      </div>
+                      <div class="col-sm-12">
+                          <div class="row">
+                              <div class="col-sm-5">
+                                  <label class="lableName">Gender *</label>
+                                  <div>
+                                      <div class="form-check form-check-inline raidoButton">
+                                          <input class="form-check-input" type="radio" id="inlineCheckbox1"
+                                              value="option1">
+                                          <label class="form-check-label" for="inlineCheckbox1">Male</label>
+                                      </div>
+                                      <div class="form-check form-check-inline raidoButton">
+                                          <input class="form-check-input" type="radio" id="inlineCheckbox2"
+                                              value="option2">
+                                          <label class="form-check-label" for="inlineCheckbox2">Female</label>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-sm-7">
+                                  <label class="lableNameRadio">Marital Status *</label>
+                                  <div>
+                                      <div class="form-check form-check-inline raidoButtonM">
+                                          <input class="form-check-input" type="radio" id="inlineCheckbox1"
+                                              value="option1">
+                                          <label class="form-check-label" for="inlineCheckbox1">Single</label>
+                                      </div>
+                                      <div class="form-check form-check-inline raidoButtonM">
+                                          <input class="form-check-input" type="radio" id="inlineCheckbox2"
+                                              value="option2">
+                                          <label class="form-check-label" for="inlineCheckbox2">Married</label>
+                                      </div>
+                                      <div class="form-check form-check-inline raidoButtonM">
+                                          <input class="form-check-input" type="radio" id="inlineCheckbox2"
+                                              value="option2">
+                                          <label class="form-check-label" for="inlineCheckbox2">Seperated</label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
 
-                                Mentoring is proven method and research shows that mentored individual has favorable
-                                outcomes in several areas of life including educational achievement, career exploration,
-                                career growth,Business growth and job placement attainment. Our mentor can help and
-                                support with career exploration, college entrances, job placement, IT skills,
-                                entrepreneurship & business growth and manymore.
+                      <div>
+                          <label class="lableName">Email *</label>
+                          <input type="email" class="form-control inputBox" placeholder="Email">
+                      </div>
+                      <div>
+                          <label class="lableName">Which City in Florida you are from?</label>
+                          <input type="email" class="form-control inputBox" placeholder="City">
+                      </div>
+                      <div>
+                          <label class="lableName">Phone Number</label>
+                          <input type="email" class="form-control inputBox" placeholder="Phone Number">
+                      </div>
+                      <div class="">
+                          <label class="lableName">Agree with the NAF Membership Terms and Condition *</label>
+                          <div>
+                              <div class="form-check form-check-inline raidoButton">
+                                  <input class="form-check-input" type="radio" id="inlineCheckboxAgre" value="">
+                                  <label class="form-check-label" for="inlineCheckboxAgre">By Clicking this button, I
+                                      acknowlege the information that I have provided above are true. I would like to
+                                      become a member of Nepalese Associtaion of Florida (NAF). I agree to follow the
+                                      Bylaws of NAF as a Member.</label>
+                              </div>
+                          </div>
+                      </div>
+                      <div>
+                          <button class="esta mt-5 float-end">Donate</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
 
-
-                                To learn more about mentoring program, please write us at mentorship@floridanepalese.org
-                                or submit the form below. we will get back to you.
-                            </p>
-                            <form action="">
+  <section class="container tabcontent" id="mentee">
+    <h1 class="headings text-center pt-5">Become a Mentee</h1>
+    <div class="col-sm-12">
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-7">
+                <form action="">
+                    <div>
+                        <label class="lableName">Name *</label>
+                        <input type="text" class="form-control inputBox" placeholder="Full Name">
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <label class="lableName">Gender *</label>
                                 <div>
-                                    <label class="lableName">Name *</label>
-                                    <input type="text" class="form-control inputBox" placeholder="Full Name">
-                                </div>
-        
-                                <div>
-                                    <label class="lableName">Email ID *</label>
-                                    <input type="email" class="form-control inputBox" placeholder="Email">
-                                </div>
-                                <div>
-                                    <label class="lableName">Address</label>
-                                    <input type="email" class="form-control inputBox" placeholder="Current Address">
-                                </div>
-                                <div>
-                                    <label class="lableName">Contact Number</label>
-                                    <input type="email" class="form-control inputBox" placeholder="Contact Number">
-                                </div>
-                                <div class="">
-                                    <div>
-                                        <div class="form-check form-check-inline raidoButton">
-                                            <input class="form-check-input" type="radio" id="inlineCheckboxAgre" value="">
-                                            <label class="form-check-label" for="inlineCheckboxAgre">By Clicking this button, I
-                                                acknowlege the information that I have provided above are true. I would like to
-                                                become a member of Nepalese Associtaion of Florida (NAF). I agree to follow the
-                                                Bylaws of NAF as a Member.</label>
-                                        </div>
+                                    <div class="form-check form-check-inline raidoButton">
+                                        <input class="form-check-input" type="radio" id="inlineCheckbox1"
+                                            value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox1">Male</label>
+                                    </div>
+                                    <div class="form-check form-check-inline raidoButton">
+                                        <input class="form-check-input" type="radio" id="inlineCheckbox2"
+                                            value="option2">
+                                        <label class="form-check-label" for="inlineCheckbox2">Female</label>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <label class="lableNameRadio">Marital Status *</label>
                                 <div>
-                                    <button class="btn btn-primary mt-5">Donate</button>
+                                    <div class="form-check form-check-inline raidoButtonM">
+                                        <input class="form-check-input" type="radio" id="inlineCheckbox1"
+                                            value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox1">Single</label>
+                                    </div>
+                                    <div class="form-check form-check-inline raidoButtonM">
+                                        <input class="form-check-input" type="radio" id="inlineCheckbox2"
+                                            value="option2">
+                                        <label class="form-check-label" for="inlineCheckbox2">Married</label>
+                                    </div>
+                                    <div class="form-check form-check-inline raidoButtonM">
+                                        <input class="form-check-input" type="radio" id="inlineCheckbox2"
+                                            value="option2">
+                                        <label class="form-check-label" for="inlineCheckbox2">Seperated</label>
+                                    </div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
-                </div>
+
+                    <div>
+                        <label class="lableName">Email *</label>
+                        <input type="email" class="form-control inputBox" placeholder="Email">
+                    </div>
+                    <div>
+                        <label class="lableName">Which City in Florida you are from?</label>
+                        <input type="email" class="form-control inputBox" placeholder="City">
+                    </div>
+                    <div>
+                        <label class="lableName">Phone Number</label>
+                        <input type="email" class="form-control inputBox" placeholder="Phone Number">
+                    </div>
+                    <div>
+                      <div>
+                        <label class="lableName">Do you want to choose your Mentor? *</label>
+                        <div>
+                            <div class="form-check form-check-inline raidoButton">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox1"
+                                    value="option1">
+                                <label class="form-check-label checked" for="inlineCheckbox1">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline raidoButton">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="">
+                        <label class="lableName">Agree with the NAF Membership Terms and Condition *</label>
+                        <div>
+                            <div class="form-check form-check-inline raidoButton">
+                                <input class="form-check-input" type="radio" id="inlineCheckboxAgre" value="">
+                                <label class="form-check-label" for="inlineCheckboxAgre">By Clicking this button, I
+                                    acknowlege the information that I have provided above are true. I would like to
+                                    become a member of Nepalese Associtaion of Florida (NAF). I agree to follow the
+                                    Bylaws of NAF as a Member.</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="esta mt-5 float-end">Donate</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+</section>
     <section class="text-center footerUp">
         <h2 class="headings pb-5">
-            Life Members
+            List Of Members
           </h2>
         <div class="container">
             <div class="col-sm-12">
@@ -315,6 +471,7 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
