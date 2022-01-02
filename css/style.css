@@ -266,13 +266,13 @@ body {
 .owl-prev {
   position: absolute;
   left: -112px;
-  bottom: 180px;
+  bottom: 300px;
 }
 
 .owl-next {
   position: absolute;
   right: -112px;
-  bottom: 180px;
+  bottom: 300px;
 }
 
 .testi-big-circle {
@@ -892,10 +892,6 @@ p {
   flex-direction: row;
 }
 
-.captionTxt p {
-  padding-right: 5rem;
-}
-
 .message {
   border-radius: 15px;
   background-color: #f4f5f9;
@@ -1130,6 +1126,24 @@ p {
 .otherView{
   display: none;
 }
+
+.past-member h3{
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #5f5f5f;
+}
+
+.past-member{
+  padding-bottom: 101px;
+}
+
+.past-member p{
+  font-size: 18px;
+  line-height: 20.7px;
+  font-weight: 400;
+  color: #5f5f5f;
+}
 @media only screen and (max-width: 480px) {
   /* For mobile phones: */
 
@@ -1194,11 +1208,6 @@ p {
 
   .executive-member {
     padding: 5rem;
-  }
-
-  .captionTxt p {
-    padding-right: 0;
-    margin-left: -25px;
   }
 
   .about-member {
