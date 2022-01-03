@@ -61,9 +61,7 @@ body {
 .icon-hover {
   display: none;
 }
-.mentor-hover{
-  display: none;
-}
+
 
 .indreni-hover {
   display: none;
@@ -75,13 +73,29 @@ body {
   display: block;
 }
 
-
-.gap:hover .mentor-home {
+.mentor-hover{
+  display: none;
+}
+.gap div.active .mentor-home {
   display: none;
 }
 
+.gap div.active p{
+  color: #fff;
+}
 
-.gap:hover .mentor-hover {
+.gap:hover .mentor-home{
+  display: none;
+}
+.gap:hover .mentor-hover{
+  padding-top: 43px;
+  padding-left: 10.5rem;
+  display: block;
+}
+
+
+
+.gap div.active .mentor-hover {
   padding-top: 43px;
   padding-left: 10.5rem;
   display: block;
@@ -121,6 +135,10 @@ body {
 
 
 .gap:hover #mentorfirstText {
+  color: #fff;
+}
+
+.gap div.active #mentorfirstText{
   color: #fff;
 }
 .gap:hover #contactText {
@@ -247,6 +265,10 @@ body {
 
 .about-wrap {
   padding-bottom: 253px;
+}
+.gap div.active {
+  transform: scale(1.5);
+  background: #003893;
 }
 
 .testi-big {
@@ -1569,6 +1591,7 @@ testimonials
   font-size: 13px;
   padding-left: 2.3rem;
 }
+
 
 .mentor-txt {
   color: #5f5f5f;

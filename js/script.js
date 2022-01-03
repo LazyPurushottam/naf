@@ -2,7 +2,7 @@ $(document).ready(function() {
    
     $("#executive-member").owlCarousel({
 
-      autoplay: false,
+      autoplay: true,
       lazyLoad: true,
       loop: true,
       margin: 20,
@@ -36,7 +36,7 @@ $(document).ready(function() {
       });
       $("#about-member").owlCarousel({
 
-        autoplay: false,
+        autoplay: true,
         lazyLoad: true,
         loop: true,
         margin: 20,
@@ -70,7 +70,7 @@ $(document).ready(function() {
         });
         $("#about-youth").owlCarousel({
   
-          autoplay: false,
+          autoplay: true,
           lazyLoad: true,
           loop: true,
           margin: 20,
@@ -104,7 +104,7 @@ $(document).ready(function() {
           });
           $("#advisory").owlCarousel({
     
-            autoplay: false,
+            autoplay: true,
             lazyLoad: true,
             loop: true,
             margin: 20,
@@ -139,7 +139,7 @@ $(document).ready(function() {
 
           $("#amendment").owlCarousel({
     
-            autoplay: false,
+            autoplay: true,
             lazyLoad: true,
             loop: true,
             margin: 20,
@@ -175,7 +175,7 @@ $(document).ready(function() {
 
           $("#youth").owlCarousel({
     
-            autoplay: false,
+            autoplay: true,
             lazyLoad: true,
             loop: true,
             margin: 20,
